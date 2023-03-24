@@ -4,6 +4,7 @@ import { coy } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 function CodeBlock(props) {
   const { language, value } = props;
+
   return (
     <SyntaxHighlighter
       language={language}
